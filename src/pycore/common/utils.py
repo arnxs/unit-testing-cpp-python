@@ -1,5 +1,4 @@
 
-
-def sum(items):
-    print(items)
-    return 6
+def add(items):
+    result = sum(items)
+    return result
