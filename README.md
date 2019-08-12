@@ -1,5 +1,10 @@
 
-## Instructions
+## Prerequisite
+
+- Python 3.6.7
+    -  recommend using pyenv if possible
+
+## Setup
 
 ``` bash
 $ pip install -r requirements.txt
