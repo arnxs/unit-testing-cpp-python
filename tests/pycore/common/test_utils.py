@@ -21,7 +21,3 @@ class TestUtils(unittest.TestCase):
         input = ()
         result = add(input)
         self.assertEqual(result, 0)
-
-
-if __name__ == '__main__':
-    unittest.main()
