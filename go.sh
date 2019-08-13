@@ -7,4 +7,4 @@ source .env
 # ptw
 
 # Only run tests that are affected
-ptw -- --testmon
+ptw --clear -- --testmon
