@@ -1,5 +1,5 @@
 import unittest as unittest
-from pycore.common.utils import add
+from pycore.common.utils import add, product
 
 
 class TestUtils(unittest.TestCase):
@@ -20,4 +20,26 @@ class TestUtils(unittest.TestCase):
 
         input = ()
         result = add(input)
+        self.assertEqual(result, 0)
+
+    def test_product(self):
+        # Test that it can subtract list of integers
+        input = (1, 2, 3)
+        result = product(input)
+        self.assertEqual(result, 6)
+
+        input = (2, 2, 3)
+        result = product(input)
+        self.assertEqual(result, 12)
+
+        input = (-1, 1, 1)
+        result = product(input)
+        self.assertEqual(result, -1)
+
+        input = (-1, 1, -1)
+        result = product(input)
+        self.assertEqual(result, 1)
+
+        input = (-1, 0, -1)
+        result = product(input)
         self.assertEqual(result, 0)
