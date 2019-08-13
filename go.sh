@@ -3,5 +3,8 @@
 # set PYTHONPATH to ./src
 source .env
 
-# pytest watch
-ptw
+# pytest watch (ptw) - watch changes to trigger test-runner
+# ptw
+
+# Only run tests that are affected
+ptw -- --testmon
