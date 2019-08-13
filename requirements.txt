@@ -2,3 +2,5 @@ pytest==5.0.1
 pytest-watch==4.2.0
 pytest-cov==2.7.1
 pytest-testmon==0.9.18
+# only auto-deteting GoogleTest and Boost::Test
+pytest-cpp==1.1.0
