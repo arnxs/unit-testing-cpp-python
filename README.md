@@ -18,12 +18,12 @@ $ pip install -r requirements.txt
 
 ``` bash
 # activate Python TDD script
-$ ./go-py.sh
+$ ./py-tdd.sh
 ```
 
 ### C++ TDD
 
 ``` bash
 # activate C++ TDD script
-$ ./go-cpp.sh
+$ ./cpp-tdd.sh
 ```
