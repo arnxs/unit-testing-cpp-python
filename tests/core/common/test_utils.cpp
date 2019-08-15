@@ -12,6 +12,15 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
     REQUIRE( Factorial(10) == 3628800 );
 }
 
+TEST_CASE( "Square are computed", "[square]" ) {
+    REQUIRE( Square(1) == 1 );
+    REQUIRE( Square(2) == 4 );
+    REQUIRE( Square(3) == 9 );
+    REQUIRE( Square(10) == 100 );
+    REQUIRE( Square(-10) == 100 );
+    REQUIRE( Square(-8) == 64 );
+}
+
 TEST_CASE( "vectors can be sized and resized", "[vector]" ) {
     // initialization block executed for each section
     std::vector<int> v( 5 );
