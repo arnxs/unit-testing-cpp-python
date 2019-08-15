@@ -1,5 +1,5 @@
 import unittest as unittest
-from pycore.common.utils import add, product
+from pycore.common.utils import add, product, square
 
 
 class TestUtils(unittest.TestCase):
@@ -43,3 +43,20 @@ class TestUtils(unittest.TestCase):
         input = (-1, 0, -1)
         result = product(input)
         self.assertEqual(result, 0)
+
+    def test_square(self):
+        input = 0
+        result = square(input)
+        self.assertEqual(result, 0)
+
+        input = 1
+        result = square(input)
+        self.assertEqual(result, 1)
+
+        input = 3
+        result = square(input)
+        self.assertEqual(result, 9)
+
+        input = -4
+        result = square(input)
+        self.assertEqual(result, 16)

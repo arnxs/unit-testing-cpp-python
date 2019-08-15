@@ -8,3 +8,7 @@ def product(items):
     for item in items:
         result *= item
     return result
+
+def square(number):
+    result = number*number
+    return result
