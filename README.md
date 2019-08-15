@@ -2,9 +2,8 @@
 
 ## Prerequisite
 
-- Python 3.6.7
-  - recommend using pyenv if possible
-  - fswatch
+- Python 3.6.x
+- fswatch
 
 ## Setup
 
