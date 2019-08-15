@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd $(dirname $0)/..
+
 # run test before watching
 make test
 
