@@ -12,7 +12,7 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
     REQUIRE( Factorial(10) == 3628800 );
 }
 
-TEST_CASE( "Square are computed", "[square]" ) {
+TEST_CASE( "Squares are computed", "[square]" ) {
     REQUIRE( Square(1) == 1 );
     REQUIRE( Square(2) == 4 );
     REQUIRE( Square(3) == 9 );
