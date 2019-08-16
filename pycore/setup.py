@@ -5,5 +5,5 @@ setup(
     name='pycore',
     version='0.1.0',
     packages=find_packages(),
-    package_dir={'pycore': 'src/pycore'},
+    package_dir={'pycore': 'src'},
 )
