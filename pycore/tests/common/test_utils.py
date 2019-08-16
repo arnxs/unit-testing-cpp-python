@@ -1,5 +1,5 @@
 import unittest as unittest
-from pycore.common.utils import add, product, square
+from nanalysis.common.utils import add, product, square
 
 
 class TestUtils(unittest.TestCase):
