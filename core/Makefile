@@ -10,11 +10,11 @@ CPP_FLAGS=-std=c++11 -Wall
 INCLUDES=\
 	-I$(TEST_DIR)\
 	-I$(EXTERNAL_DIR)\
-	-I$(SRC_DIR)/core/common
+	-I$(SRC_DIR)/common
 
 SRCS=\
-	$(TEST_DIR)/core/common/test_utils.cpp \
-	$(SRC_DIR)/core/common/utils.cpp \
+	$(TEST_DIR)/common/test_utils.cpp \
+	$(SRC_DIR)/common/utils.cpp \
 	$(TEST_DIR)/catch2/examples/000-CatchMain.cpp \
 	$(TEST_DIR)/catch2/examples/010-TestCase.cpp \
 	$(TEST_DIR)/catch2/examples/020-TestCase-1.cpp

@@ -2,6 +2,8 @@
 
 cd $(dirname $0)/..
 
+cd core
+
 # run test before watching
 make test
 
